@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    <style name="managementButton">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:text">@string/delete</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:onClick">changeCount</item>
+
+    </style>
+
+    <style name="removeButton" parent="managementButton">
+        <item name="android:id">@id/remove</item>
+        <item name="android:text">@string/delete</item>
+    </style>
+
+    <style name="addButton" parent="managementButton">
+        <item name="android:id">@id/add</item>
+        <item name="android:text">@string/add</item>
+    </style>
+
+    <style name="subtractButton" parent="managementButton">
+        <item name="android:id">@id/subtract</item>
+        <item name="android:text">@string/subtract</item>
+    </style>
+
+    <style name="itemButton">
+        <item name="android:id">@id/item</item>
+        <item name="android:layout_width">195dp</item>
+        <item name="android:layout_height">195dp</item>
+        <item name="android:layout_columnSpan">3</item>
+        <item name="android:textColor">@color/black</item>
+
+
+    </style>
+
+    <style name="itemGrid">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnSpan">1</item>
+        <item name="android:columnCount">3</item>
+        <item name="android:useDefaultMargins">true</item>
+
+    </style>
+
+
+</resources>

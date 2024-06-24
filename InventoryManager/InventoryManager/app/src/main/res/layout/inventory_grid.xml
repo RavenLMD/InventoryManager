@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:columnCount="2">
+
+
+        <TextView
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginTop="5dp"
+            android:text="Inventory"
+
+            android:textSize="15sp" />
+
+
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/itemGrid">
+
+            <Button
+                android:id="@id/item1"
+                style="@style/itemButton"
+                android:text="@string/item1" />
+
+            <Button
+                style="@style/removeButton"
+                android:tag="1" />
+
+            <Button
+                style="@style/addButton"
+                android:tag="1" />
+
+            <Button
+                style="@style/subtractButton"
+                android:tag="1" />
+        </GridLayout>
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/itemGrid">
+
+            <Button
+                android:id="@id/item2"
+                style="@style/itemButton"
+                android:text="@string/item2" />
+
+            <Button
+                style="@style/removeButton"
+                android:tag="2" />
+
+            <Button
+                style="@style/addButton"
+                android:tag="2" />
+
+            <Button
+                style="@style/subtractButton"
+                android:tag="2" />
+        </GridLayout>
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/itemGrid">
+
+            <Button
+                android:id="@id/item3"
+                style="@style/itemButton"
+                android:text="@string/item3" />
+
+            <Button
+                style="@style/removeButton"
+                android:tag="3" />
+
+            <Button
+                style="@style/addButton"
+                android:tag="3" />
+
+            <Button
+                style="@style/subtractButton"
+                android:tag="3" />
+
+        </GridLayout>
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/itemGrid">
+
+            <Button
+                android:id="@id/item4"
+                style="@style/itemButton"
+                android:text="@string/item4" />
+
+            <Button
+                style="@style/removeButton"
+                android:tag="4" />
+
+            <Button
+                style="@style/addButton"
+                android:tag="4" />
+
+            <Button
+                style="@style/subtractButton"
+                android:tag="4" />
+
+        </GridLayout>
+
+        <Button
+            android:id="@id/left"
+
+            android:layout_columnSpan="1"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginBottom="30dp"
+            android:text="- Back"
+            android:onClick="changeScreen"
+
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@id/right"
+
+            android:layout_columnSpan="1"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginBottom="30dp"
+            android:text="Next -"
+            android:onClick="changeScreen"
+
+            android:textSize="10sp" />
+
+
+    </GridLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addButton"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:onClick="addItem"
+
+        android:src="@drawable/ic_baseline_add_24"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

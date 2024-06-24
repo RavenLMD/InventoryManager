@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">InventoryManager</string>
+    <string name="button">Submit credentials</string>
+    <string name="app_intro">Welcome to the inventory app</string>
+    <string name="enter_pass">Please enter your password: </string>
+    <string name="enter_user">Please enter your username: </string>
+
+    <string name="new_user">No account? Create a new user</string>
+
+    <string name="delete">X</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+
+    <string name="item1">Item 1: 0</string>
+    <string name="item2">Item 2: 0</string>
+    <string name="item3">Item 3: 0</string>
+    <string name="item4">Item 4: 0</string>
+
+    <string name="temp">This button will be removed when the remaining app functionality is added. Click to change screens.</string>
+    <string name="permission">Receive text updates?</string>
+    <string name="text">Receive test text</string>
+
+
+</resources>

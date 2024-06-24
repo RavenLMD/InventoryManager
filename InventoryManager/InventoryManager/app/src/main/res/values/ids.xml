@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <id name="textWelcome"></id>
+
+    <id name="username"></id>
+    <id name="password"></id>
+
+    <id name="login"></id>
+    <id name="newUser"></id>
+
+    <id name="textEnterUser"></id>
+    <id name="textEnterPass"></id>
+
+    <id name="item1"></id>
+    <id name="item2"></id>
+    <id name="item3"></id>
+    <id name="item4"></id>
+
+    <id name="left"></id>
+    <id name="right"></id>
+
+
+    <id name="remove"></id>
+    <id name="add"></id>
+    <id name="subtract"></id>
+    <id name="item"></id>
+
+    <id name="number"></id>
+    <id name="numberAsk"></id>
+
+
+
+</resources>
